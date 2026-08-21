@@ -4,6 +4,14 @@
 Thumbs.db
 *.log
 
+# Env / secrets — never commit real keys
+.env
+.env.local
+*.env
+# Real Firebase config (keep .example files — they are safe placeholders)
+google-services.json
+GoogleService-Info.plist
+
 # Env / secrets
 .env
 .env.local
