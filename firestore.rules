@@ -1,0 +1,29 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ─── Routes (read-only for all users) ─────────────────────────────────────
+    match /routes/{routeId} {
+      allow read: if true;
+      // Only admins can write (custom claim)
+      allow write: if request.auth != null
+        && request.auth.token.role == 'admin';
+    }
+
+    // ─── Buses (read-only for all users) ──────────────────────────────────────
+    match /buses/{busId} {
+      allow read: if true;
+      // Only Cloud Functions (admin SDK) can write
+      allow write: if request.auth != null
+        && request.auth.token.role == 'admin';
+    }
+
+    // ─── Users (own document only) ────────────────────────────────────────────
+    match /users/{userId} {
+      // Users can read/write their own document
+      allow read, write: if request.auth != null
+        && request.auth.uid == userId;
+    }
+  }
+}

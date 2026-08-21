@@ -1,0 +1,52 @@
+# IDE / OS
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Env / secrets
+.env
+.env.local
+*.env
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Expo
+mobile/.expo/
+mobile/dist/
+
+# Android build artifacts
+mobile/android/app/build/
+mobile/android/build/
+mobile/android/.gradle/
+mobile/android/local.properties
+mobile/android/app/.cxx/
+
+# Generated / temp files
+mobile/tsconfig.json.6OlgXDsaUh55fW06X9JxEh_fvQqrCQS-CHNGm8A0enc
+mobile/temp_routes.js
+mobile/updateWaypoints.ts
+mobile/updateWaypoints.js
+mobile/upload_full_cbe.js
+upload_full_cbe.js
+
+# Design mockups (not needed in source code)
+chromatic_mono/
+neo_retro_nostalgia/
+fares_no_logo_b_w_typography/
+full_screen_aesthetic_login/
+full_screen_otp_verification_aesthetic/
+home_no_logo_b_w_typography/
+language_selection_aesthetic_red_variant/
+live_journey_tracking/
+location_permission_simple_b_w/
+profile_red_accents/
+route_details_red_accents/
+search_red_accents/
+emergency_sos/
+
+# Large AI-generated images
+ChatGPT Image Jul 16, 2026, 04_15_06 PM.png
+Bus_carga_trackMile.json

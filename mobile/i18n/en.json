@@ -1,0 +1,138 @@
+{
+  "common": {
+    "continue": "Continue",
+    "back": "Back",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try Again",
+    "cancel": "Cancel",
+    "save": "Save",
+    "done": "Done",
+    "search": "Search",
+    "ok": "OK"
+  },
+  "language": {
+    "title": "Language",
+    "subtitle": "Choose your preferred language",
+    "search": "Search language...",
+    "localization": "Localization",
+    "localizationDesc": "Choose from regional and international languages for a tailored transit experience."
+  },
+  "login": {
+    "headline": "Travel smarter in Coimbatore.",
+    "subtitle": "Experience seamless transit across the Manchester of South India.",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "00000 00000",
+    "requestOtp": "Request OTP",
+    "orContinueWith": "or continue with",
+    "google": "Google",
+    "apple": "Apple",
+    "terms": "TERMS",
+    "privacy": "PRIVACY",
+    "agreeText": "By continuing, you agree to our policies."
+  },
+  "otp": {
+    "title": "Verify Code",
+    "subtitle": "Enter the 6-digit code sent to",
+    "verifyButton": "Verify & Proceed",
+    "resendIn": "Resend code in",
+    "resendNow": "RESEND NOW"
+  },
+  "locationPermission": {
+    "title": "Enable Location",
+    "subtitle": "Allow Namma Kovai to access your location to show nearby buses and accurate ETAs.",
+    "allowButton": "Allow Location Access",
+    "skipButton": "Skip for now"
+  },
+  "home": {
+    "searchPlaceholder": "Where to?",
+    "busesNearYou": "Buses Near You",
+    "viewAll": "View All",
+    "commute": "Commute",
+    "work": "Work",
+    "saved": "Saved",
+    "home": "Home",
+    "arrivingIn": "Arriving in",
+    "min": "min",
+    "stopId": "Stop ID",
+    "towards": "Towards"
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "Bus number, stop, route...",
+    "tabs": {
+      "buses": "Buses",
+      "routes": "Routes",
+      "stops": "Stops"
+    },
+    "recentSearches": "Recent Searches",
+    "results": "Results"
+  },
+  "passes": {
+    "title": "Fares & Passes",
+    "activePass": "My Active Pass",
+    "buyPass": "Buy a Pass",
+    "viewAllPlans": "View All Plans",
+    "fareCalculator": "Fare Calculator",
+    "fromStop": "From Stop",
+    "toStop": "To Stop",
+    "calculate": "Calculate Trip Fare",
+    "recentTrips": "Recent Trips",
+    "showMore": "Show More History",
+    "daysLeft": "days left",
+    "bestValue": "BEST VALUE",
+    "dailyPass": "Daily Pass",
+    "weeklyPass": "Weekly Pass",
+    "monthlyPass": "Monthly Pass",
+    "studentPass": "Student",
+    "unlRides": "Unl. Rides",
+    "save15": "Save 15%",
+    "longTerm": "Long Term",
+    "validIdReq": "Valid ID Req"
+  },
+  "profile": {
+    "title": "Profile",
+    "trips": "Trips",
+    "km": "KM",
+    "co2": "KG CO₂",
+    "ecoImpact": "Eco Impact",
+    "ecoMessage": "You've saved the equivalent of {{count}} young trees this month!",
+    "myPasses": "My Passes",
+    "savedPlaces": "Saved Places",
+    "tripHistory": "Trip History",
+    "referEarn": "Refer & Earn",
+    "helpSupport": "Help & Support",
+    "logout": "Logout Account",
+    "version": "App Version {{version}} • Made for Coimbatore",
+    "new": "NEW"
+  },
+  "navigation": {
+    "home": "Home",
+    "search": "Search",
+    "passes": "Passes",
+    "profile": "Profile"
+  },
+  "riding": {
+    "reporting": "Reporting for Bus {{busNumber}}",
+    "riders": "{{count}} other riders",
+    "stopReporting": "Stop Reporting"
+  },
+  "sos": {
+    "title": "Emergency SOS",
+    "calling": "Calling Emergency Services",
+    "cancel": "Cancel"
+  },
+  "route": {
+    "startJourney": "Start Journey",
+    "liveTracking": "Live Tracking",
+    "stops": "Stops",
+    "onThisBus": "I'm on this bus"
+  },
+  "errors": {
+    "noLocation": "Could not get your location. Please enable location access.",
+    "networkError": "No internet connection. Please check your network.",
+    "authFailed": "Authentication failed. Please try again.",
+    "invalidPhone": "Please enter a valid 10-digit phone number.",
+    "invalidOtp": "Invalid code. Please try again."
+  }
+}

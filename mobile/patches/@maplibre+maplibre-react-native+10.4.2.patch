@@ -1,0 +1,66 @@
+diff --git a/node_modules/@maplibre/maplibre-react-native/android/.gradle/9.2.0/checksums/checksums.lock b/node_modules/@maplibre/maplibre-react-native/android/.gradle/9.2.0/checksums/checksums.lock
+new file mode 100644
+index 0000000..8500bef
+Binary files /dev/null and b/node_modules/@maplibre/maplibre-react-native/android/.gradle/9.2.0/checksums/checksums.lock differ
+diff --git a/node_modules/@maplibre/maplibre-react-native/android/.gradle/9.2.0/checksums/md5-checksums.bin b/node_modules/@maplibre/maplibre-react-native/android/.gradle/9.2.0/checksums/md5-checksums.bin
+new file mode 100644
+index 0000000..1a6410c
+Binary files /dev/null and b/node_modules/@maplibre/maplibre-react-native/android/.gradle/9.2.0/checksums/md5-checksums.bin differ
+diff --git a/node_modules/@maplibre/maplibre-react-native/android/.gradle/9.2.0/checksums/sha1-checksums.bin b/node_modules/@maplibre/maplibre-react-native/android/.gradle/9.2.0/checksums/sha1-checksums.bin
+new file mode 100644
+index 0000000..4c05344
+Binary files /dev/null and b/node_modules/@maplibre/maplibre-react-native/android/.gradle/9.2.0/checksums/sha1-checksums.bin differ
+diff --git a/node_modules/@maplibre/maplibre-react-native/android/.gradle/9.2.0/fileChanges/last-build.bin b/node_modules/@maplibre/maplibre-react-native/android/.gradle/9.2.0/fileChanges/last-build.bin
+new file mode 100644
+index 0000000..f76dd23
+Binary files /dev/null and b/node_modules/@maplibre/maplibre-react-native/android/.gradle/9.2.0/fileChanges/last-build.bin differ
+diff --git a/node_modules/@maplibre/maplibre-react-native/android/.gradle/9.2.0/fileHashes/fileHashes.bin b/node_modules/@maplibre/maplibre-react-native/android/.gradle/9.2.0/fileHashes/fileHashes.bin
+new file mode 100644
+index 0000000..66b7f83
+Binary files /dev/null and b/node_modules/@maplibre/maplibre-react-native/android/.gradle/9.2.0/fileHashes/fileHashes.bin differ
+diff --git a/node_modules/@maplibre/maplibre-react-native/android/.gradle/9.2.0/fileHashes/fileHashes.lock b/node_modules/@maplibre/maplibre-react-native/android/.gradle/9.2.0/fileHashes/fileHashes.lock
+new file mode 100644
+index 0000000..e643699
+Binary files /dev/null and b/node_modules/@maplibre/maplibre-react-native/android/.gradle/9.2.0/fileHashes/fileHashes.lock differ
+diff --git a/node_modules/@maplibre/maplibre-react-native/android/.gradle/9.2.0/gc.properties b/node_modules/@maplibre/maplibre-react-native/android/.gradle/9.2.0/gc.properties
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/@maplibre/maplibre-react-native/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock b/node_modules/@maplibre/maplibre-react-native/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+new file mode 100644
+index 0000000..1763316
+Binary files /dev/null and b/node_modules/@maplibre/maplibre-react-native/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock differ
+diff --git a/node_modules/@maplibre/maplibre-react-native/android/.gradle/buildOutputCleanup/cache.properties b/node_modules/@maplibre/maplibre-react-native/android/.gradle/buildOutputCleanup/cache.properties
+new file mode 100644
+index 0000000..270a773
+--- /dev/null
++++ b/node_modules/@maplibre/maplibre-react-native/android/.gradle/buildOutputCleanup/cache.properties
+@@ -0,0 +1,2 @@
++#Wed Aug 19 20:48:07 IST 2026
++gradle.version=9.2.0
+diff --git a/node_modules/@maplibre/maplibre-react-native/android/.gradle/vcs-1/gc.properties b/node_modules/@maplibre/maplibre-react-native/android/.gradle/vcs-1/gc.properties
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/@maplibre/maplibre-react-native/android/src/main/java/org/maplibre/reactnative/events/EventEmitter.java b/node_modules/@maplibre/maplibre-react-native/android/src/main/java/org/maplibre/reactnative/events/EventEmitter.java
+index 379b72f..22c9853 100644
+--- a/node_modules/@maplibre/maplibre-react-native/android/src/main/java/org/maplibre/reactnative/events/EventEmitter.java
++++ b/node_modules/@maplibre/maplibre-react-native/android/src/main/java/org/maplibre/reactnative/events/EventEmitter.java
+@@ -15,18 +15,7 @@ public class EventEmitter {
+ 
+ 
+     private static ReactContext getCurrentReactContext(ReactApplicationContext reactApplicationContext) {
+-        if (reactApplicationContext.getApplicationContext() instanceof ReactApplication) {
+-            ReactApplication reactApplication = ((ReactApplication) reactApplicationContext
+-                    .getApplicationContext());
+-
+-            return reactApplication
+-                    .getReactNativeHost()
+-                    .getReactInstanceManager()
+-                    .getCurrentReactContext();
+-        } else {
+-            Log.d(LOG_TAG, "getApplicationContext() application doesn't implement ReactApplication");
+-            return reactApplicationContext;
+-        }
++        return reactApplicationContext;
+     }
+ 
+ 

@@ -1,0 +1,102 @@
+[
+  {
+    "routeId": "route-11",
+    "routeNumber": "11",
+    "routeName": "Gandhipuram - Ukkadam",
+    "active": true,
+    "stops": [
+      { "stopId": "s-11-01", "name": "Gandhipuram Central", "lat": 11.0168, "lng": 76.9558, "order": 1 },
+      { "stopId": "s-11-02", "name": "Lakshmi Mills", "lat": 11.0100, "lng": 76.9620, "order": 2 },
+      { "stopId": "s-11-03", "name": "Cross Cut Road", "lat": 11.0070, "lng": 76.9680, "order": 3 },
+      { "stopId": "s-11-04", "name": "Ramanathapuram", "lat": 11.0020, "lng": 76.9720, "order": 4 },
+      { "stopId": "s-11-05", "name": "Ukkadam Bus Stand", "lat": 10.9920, "lng": 76.9780, "order": 5 }
+    ],
+    "polyline": [
+      { "lat": 11.0168, "lng": 76.9558 },
+      { "lat": 11.0100, "lng": 76.9620 },
+      { "lat": 11.0070, "lng": 76.9680 },
+      { "lat": 11.0020, "lng": 76.9720 },
+      { "lat": 10.9920, "lng": 76.9780 }
+    ]
+  },
+  {
+    "routeId": "route-33a",
+    "routeNumber": "33A",
+    "routeName": "Gandhipuram - Singanallur",
+    "active": true,
+    "stops": [
+      { "stopId": "s-33a-01", "name": "Gandhipuram", "lat": 11.0168, "lng": 76.9558, "order": 1 },
+      { "stopId": "s-33a-02", "name": "RS Puram", "lat": 11.0050, "lng": 76.9600, "order": 2 },
+      { "stopId": "s-33a-03", "name": "Race Course", "lat": 11.0000, "lng": 76.9650, "order": 3 },
+      { "stopId": "s-33a-04", "name": "Peelamedu", "lat": 11.0070, "lng": 77.0080, "order": 4 },
+      { "stopId": "s-33a-05", "name": "Singanallur", "lat": 10.9980, "lng": 77.0230, "order": 5 }
+    ],
+    "polyline": [
+      { "lat": 11.0168, "lng": 76.9558 },
+      { "lat": 11.0050, "lng": 76.9600 },
+      { "lat": 11.0000, "lng": 76.9650 },
+      { "lat": 11.0070, "lng": 77.0080 },
+      { "lat": 10.9980, "lng": 77.0230 }
+    ]
+  },
+  {
+    "routeId": "route-12c",
+    "routeNumber": "12C",
+    "routeName": "Gandhipuram - TIDEL Park",
+    "active": true,
+    "stops": [
+      { "stopId": "s-12c-01", "name": "Gandhipuram Central", "lat": 11.0168, "lng": 76.9558, "order": 1 },
+      { "stopId": "s-12c-02", "name": "Hope College", "lat": 11.0200, "lng": 76.9500, "order": 2 },
+      { "stopId": "s-12c-03", "name": "Saibaba Colony", "lat": 11.0280, "lng": 76.9450, "order": 3 },
+      { "stopId": "s-12c-04", "name": "Saravanampatti", "lat": 11.0520, "lng": 76.9980, "order": 4 },
+      { "stopId": "s-12c-05", "name": "TIDEL Park", "lat": 11.0580, "lng": 77.0120, "order": 5 }
+    ],
+    "polyline": [
+      { "lat": 11.0168, "lng": 76.9558 },
+      { "lat": 11.0200, "lng": 76.9500 },
+      { "lat": 11.0280, "lng": 76.9450 },
+      { "lat": 11.0520, "lng": 76.9980 },
+      { "lat": 11.0580, "lng": 77.0120 }
+    ]
+  },
+  {
+    "routeId": "route-coimbatore-airport",
+    "routeNumber": "Airport",
+    "routeName": "Gandhipuram - Coimbatore Airport",
+    "active": true,
+    "stops": [
+      { "stopId": "s-ap-01", "name": "Gandhipuram", "lat": 11.0168, "lng": 76.9558, "order": 1 },
+      { "stopId": "s-ap-02", "name": "Town Hall", "lat": 11.0120, "lng": 76.9620, "order": 2 },
+      { "stopId": "s-ap-03", "name": "Avinashi Road", "lat": 11.0200, "lng": 77.0000, "order": 3 },
+      { "stopId": "s-ap-04", "name": "Peelamedu", "lat": 11.0070, "lng": 77.0080, "order": 4 },
+      { "stopId": "s-ap-05", "name": "Coimbatore Airport", "lat": 11.0297, "lng": 77.0437, "order": 5 }
+    ],
+    "polyline": [
+      { "lat": 11.0168, "lng": 76.9558 },
+      { "lat": 11.0120, "lng": 76.9620 },
+      { "lat": 11.0200, "lng": 77.0000 },
+      { "lat": 11.0070, "lng": 77.0080 },
+      { "lat": 11.0297, "lng": 77.0437 }
+    ]
+  },
+  {
+    "routeId": "route-10b",
+    "routeNumber": "10B",
+    "routeName": "Gandhipuram - Vadavalli",
+    "active": true,
+    "stops": [
+      { "stopId": "s-10b-01", "name": "Gandhipuram", "lat": 11.0168, "lng": 76.9558, "order": 1 },
+      { "stopId": "s-10b-02", "name": "RS Puram", "lat": 11.0050, "lng": 76.9600, "order": 2 },
+      { "stopId": "s-10b-03", "name": "Tatabad", "lat": 11.0100, "lng": 76.9420, "order": 3 },
+      { "stopId": "s-10b-04", "name": "Maruthamalai Road", "lat": 11.0400, "lng": 76.9200, "order": 4 },
+      { "stopId": "s-10b-05", "name": "Vadavalli", "lat": 11.0450, "lng": 76.9000, "order": 5 }
+    ],
+    "polyline": [
+      { "lat": 11.0168, "lng": 76.9558 },
+      { "lat": 11.0050, "lng": 76.9600 },
+      { "lat": 11.0100, "lng": 76.9420 },
+      { "lat": 11.0400, "lng": 76.9200 },
+      { "lat": 11.0450, "lng": 76.9000 }
+    ]
+  }
+]

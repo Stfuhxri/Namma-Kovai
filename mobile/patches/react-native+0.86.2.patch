@@ -1,0 +1,23 @@
+diff --git a/node_modules/react-native/Libraries/Animated/nodes/AnimatedNode.js b/node_modules/react-native/Libraries/Animated/nodes/AnimatedNode.js
+index b10fe9d..0ce2803 100644
+--- a/node_modules/react-native/Libraries/Animated/nodes/AnimatedNode.js
++++ b/node_modules/react-native/Libraries/Animated/nodes/AnimatedNode.js
+@@ -122,9 +122,15 @@ export default class AnimatedNode {
+ 
+   __callListeners(value: number): void {
+     const event = {value};
+-    this._listeners.forEach(listener => {
+-      listener(event);
+-    });
++    // Guard: _listeners may be undefined if __detach() was called while an
++    // animation frame was still in-flight (e.g. component unmounted mid-anim).
++    if (this._listeners != null && typeof this._listeners.forEach === 'function') {
++      this._listeners.forEach(listener => {
++        if (typeof listener === 'function') {
++          listener(event);
++        }
++      });
++    }
+   }
+ 
+   __getNativeTag(): number {

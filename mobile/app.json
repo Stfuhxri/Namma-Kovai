@@ -1,0 +1,69 @@
+{
+  "expo": {
+    "name": "Namma Kovai",
+    "slug": "namma-kovai",
+    "version": "1.0.0",
+    "scheme": "nammakovai",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.nammakovai.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Namma Kovai uses your location to show buses near you and provide accurate ETAs.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Namma Kovai uses your location in the background when you're riding a bus, to help other passengers track it live.",
+        "NSLocationAlwaysUsageDescription": "Namma Kovai uses your location in the background to report live bus positions."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.nammakovai.app",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_BACKGROUND_LOCATION",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_LOCATION",
+        "android.permission.RECEIVE_BOOT_COMPLETED"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Namma Kovai uses your location to show nearby buses and report live bus positions when you're riding.",
+          "locationAlwaysPermission": "Namma Kovai uses your location in the background to report live bus positions.",
+          "locationWhenInUsePermission": "Namma Kovai uses your location to show buses near you.",
+          "isAndroidBackgroundLocationEnabled": true,
+          "isAndroidForegroundServiceEnabled": true
+        }
+      ],
+      "expo-font",
+      "expo-secure-store",
+      "expo-splash-screen",
+      "@maplibre/maplibre-react-native",
+      "@react-native-google-signin/google-signin"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
